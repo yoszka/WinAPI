@@ -1,0 +1,58 @@
+﻿Build started 2012-12-06 23:43:21.
+     1>Project "E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\System_Pomiarowy_ZigBee.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Servo_PC_APP.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Servo_PC_APP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Visual Studio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Servo_PC_APP.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files\Visual Studio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Servo_PC_APP.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt serial_port.cpp main.cpp threads.cpp tools.cpp
+         serial_port.cpp
+         main.cpp
+     1>main.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(217): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(283): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>main.cpp(427): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+         threads.cpp
+     1>threads.cpp(120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>threads.cpp(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>threads.cpp(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>threads.cpp(153): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         tools.cpp
+     1>tools.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>tools.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\res.res" res.rc 
+       Link:
+         E:\Program Files\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\Release\Servo_PC_APP.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Servo_PC_APP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\Release\Servo_PC_APP.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\Release\Servo_PC_APP.lib" /MACHINE:X86 Release\res.res
+         Release\serial_port.obj
+         Release\stdafx.obj
+         Release\main.obj
+         Release\threads.obj
+         Release\tools.obj
+         Generating code
+         Finished generating code
+         System_Pomiarowy_ZigBee.vcxproj -> E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\Release\Servo_PC_APP.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\Release\Servo_PC_APP.exe;#1" /manifest Release\Servo_PC_APP.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Servo_PC_APP.unsuccessfulbuild".
+         Touching "Release\Servo_PC_APP.lastbuildstate".
+     1>Done Building Project "E:\E_ELEKTRONIKA\WinAPI\MS_VS_AVR_SERWO_PC_APP\System_Pomiarowy_ZigBee.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.01
