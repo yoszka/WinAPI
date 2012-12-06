@@ -4,7 +4,7 @@
 // *********** Includes ****************************************************************************
 
 #include "stdafx.h"
-#include "System_Pomiarowy_ZigBee.h"
+#include "main.h"
 #include "content.h"
 #include <windows.h>
 #include <commctrl.h>                                                                               // for progress bar
