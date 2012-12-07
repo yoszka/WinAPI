@@ -18,9 +18,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="content.h">
-      <Filter>header</Filter>
-    </ClInclude>
     <ClInclude Include="main.h">
       <Filter>header</Filter>
     </ClInclude>

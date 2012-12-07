@@ -15,10 +15,6 @@
 using namespace std;
 
 string  vPrintAsHex             (BYTE* str, unsigned int length);
-VOID    vToggleMessageIndidator (UINT uiRadioButtonId);
-VOID    vSetMessageIndidator    (UINT uiRadioButtonId);
-VOID    vClearMessageIndidator  (UINT uiRadioButtonId);
-VOID    vIgnoreClick            (VOID);
 
 #endif // TOOLS_H
 

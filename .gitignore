@@ -14,3 +14,7 @@
 
 # Solution Data Base
 *.sdf
+/MS_VS_AVR_SERWO_PC_APP/ipch
+
+# Log files
+*.log
