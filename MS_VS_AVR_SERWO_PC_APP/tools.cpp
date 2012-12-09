@@ -37,4 +37,22 @@ string vPrintAsHex(BYTE* str, unsigned int length)
 }
 
 
+/***************************************************************************************************
+* brief      : Set checked sytate for choosen radio button - receive message indicator
+***************************************************************************************************/
+VOID vSetServoStateIndidator(UINT uiRadioButtonId)
+{
+  CheckRadioButton (g_hMainWindow, uiRadioButtonId, uiRadioButtonId, uiRadioButtonId);
+}
+
+
+/***************************************************************************************************
+* brief      : Set unchecked sytate for choosen radio button - receive message indicator
+***************************************************************************************************/
+VOID vClearServoStateIndidator(UINT uiRadioButtonId)
+{
+  CheckRadioButton (g_hMainWindow, uiRadioButtonId, uiRadioButtonId, uiRadioButtonId+100);
+}
+
+
 // EOF

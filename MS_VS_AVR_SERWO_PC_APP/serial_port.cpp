@@ -20,7 +20,7 @@ using namespace std;
 * brief      : open serial port with given name (i.e. "COM6")
 * side effect:
 ***************************************************************************************************/
-BOOL bOpenSerialPort(char* pcPortName)
+BOOL bOpenSerialPort(WCHAR* pcPortName)
 {
   // Open the serial port.
   g_hSerial = CreateFile (pcPortName,                 // Pointer to the name of the port

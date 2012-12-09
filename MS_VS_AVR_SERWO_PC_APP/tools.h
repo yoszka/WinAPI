@@ -14,7 +14,9 @@
 
 using namespace std;
 
-string  vPrintAsHex             (BYTE* str, unsigned int length);
+string  vPrintAsHex					(BYTE* str, unsigned int length);
+VOID	vSetServoStateIndidator		(UINT uiRadioButtonId);
+VOID	vClearServoStateIndidator	(UINT uiRadioButtonId);
 
 #endif // TOOLS_H
 

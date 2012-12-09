@@ -11,7 +11,7 @@
 // ************** Definitions **********************************************************************
 // ************** Function prototypes **************************************************************
 
-BOOL bOpenSerialPort(CHAR* pcPortName);
+BOOL bOpenSerialPort(WCHAR* pcPortName);
 
 #endif // SERIAL_POST_H
 

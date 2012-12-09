@@ -16,6 +16,9 @@
     <ClCompile Include="tools.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="enumser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -37,6 +40,9 @@
       <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="tools.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="enumser.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
